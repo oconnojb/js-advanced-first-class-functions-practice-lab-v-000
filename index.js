@@ -8,9 +8,7 @@ const logDriversByHometown = function (drivers, loc) {drivers.forEach(function (
 })}
 
 const driversByRevenue = function (drivers) {
-  drivers.sort(function (a, b) {
-    return a.revenue-b.revenue
-  })
+  console.log(drivers)
 }
 
 
