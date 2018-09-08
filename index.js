@@ -8,15 +8,11 @@ const logDriversByHometown = function (drivers, loc) {drivers.forEach(function (
 })}
 
 const driversByRevenue = function (drivers) {
-  let array = []
-  drivers.forEach( function (el, i ar){
-    array.push(el.revenue)
-  })
-  return array
+  return drivers
 }
 
 /*
-* `driversByRevenue()` — Receives an array of `driver` objects and 
+* `driversByRevenue()` — Receives an array of `driver` objects and
   returns a new array of `driver` objects sorted by their `revenue` attribute from lowest to highest.
 * `driversByName()` — Receives an array of `driver` objects and returns a new array of `driver` objects sorted by their `name` attribute from A to Z. Here, you may have to use the [`String.prototype.localeCompare()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) method.
 * `totalRevenue()` — Receives an array of `driver` objects and returns the sum of the revenue earned by each driver.
