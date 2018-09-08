@@ -8,7 +8,7 @@ const logDriversByHometown = function (drivers, loc) {drivers.forEach(function (
 })}
 
 const driversByRevenue = function (drivers) {
-  console.log(drivers)
+  drivers.forEach(function(e,i,a){console.log(e.revenue)})
 }
 
 
