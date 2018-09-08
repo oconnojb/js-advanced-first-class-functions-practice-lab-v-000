@@ -12,7 +12,7 @@ const cb = function (a, b){
 }
 
 const driversByRevenue = function (drivers) {
-  drivers.sort(cb())
+  drivers.sort(cb
 }
 
 
