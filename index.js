@@ -12,6 +12,7 @@ const driversByRevenue = function (drivers) {
     return a.revenue-b.revenue
   })
   console.log(d)
+  consol.log(drivers)
   return d
 }
 
