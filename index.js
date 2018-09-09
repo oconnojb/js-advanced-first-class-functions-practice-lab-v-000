@@ -13,7 +13,7 @@ const driversByRevenue = function (drivers) {
     let d = b.revenue;
     return c-d;
   })
-  return d
+  return drivers
 }
 
 
