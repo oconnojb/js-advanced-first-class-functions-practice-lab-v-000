@@ -20,13 +20,16 @@ const driversByName = function (drivers) {
     let bName = b.name
     return aName.localeCompare(bName)
   })
-  return
+  return a
+}
+
+const totalRevenue = function (drivers) {
+  return drivers.reduce(function(agg, el, i, arr){
+    return agg + el.revenue
+  })
 }
 
 /*
-* `driversByName()` — Receives an array of `driver` objects
-  and returns a new array of `driver` objects sorted by their `name` attribute from A to Z.
-  Here, you may have to use the [`String.prototype.localeCompare()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) method.
 * `totalRevenue()` — Receives an array of `driver` objects and returns the sum of the revenue earned by each driver.
 * `averageRevenue()` — Receives an array of `driver` objects and returns the average revenue earned by each driver.
 */
