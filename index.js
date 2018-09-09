@@ -8,7 +8,7 @@ const logDriversByHometown = function (drivers, loc) {drivers.forEach(function (
 })}
 
 const driversByRevenue = function (drivers) {
-  const d = drivers
+  let d = drivers
   const newarr = d.sort(function(a,b){
     return a.revenue-b.revenue
   })
