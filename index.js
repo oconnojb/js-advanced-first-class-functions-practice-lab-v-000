@@ -9,6 +9,7 @@ const logDriversByHometown = function (drivers, loc) {drivers.forEach(function (
 
 const driversByRevenue = function (drivers) {
   let a = drivers.copy()
+  console.log(a)
 }
 
 
