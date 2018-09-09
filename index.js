@@ -14,7 +14,7 @@ const driversByRevenue = function (drivers) {
     let d = b.revenue;
     return c-d;
   })
-  return drivers
+  console.log(drivers) 
 }
 
 
