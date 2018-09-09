@@ -11,7 +11,6 @@ const driversByRevenue = function (drivers) {
   const d = drivers.sort(function(a,b){
     return a.revenue-b.revenue
   })
-  console.log(d)
   console.log(drivers)
   return d
 }
