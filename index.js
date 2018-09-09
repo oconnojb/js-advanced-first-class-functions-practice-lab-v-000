@@ -30,7 +30,10 @@ const totalRevenue = function (drivers) {
   },0)
 }
 
+const averageRevenue = function (drivers) {
+  return totalRevenue(drivers) - drivers.length
+}
+
 /*
-* `totalRevenue()` — Receives an array of `driver` objects and returns the sum of the revenue earned by each driver.
 * `averageRevenue()` — Receives an array of `driver` objects and returns the average revenue earned by each driver.
 */
