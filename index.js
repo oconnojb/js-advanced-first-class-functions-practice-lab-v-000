@@ -11,7 +11,6 @@ const driversByRevenue = function (drivers) {
   const d = drivers.sort(function(a,b){
     console.log(a.revenue, b.revenue)
   })
-  d.forEach(function(e,i,a){console.log(e.revenue)})
   return d
 }
 
