@@ -12,7 +12,7 @@ const driversByRevenue = function (drivers) {
   const newarr = d.sort(function(a,b){
     return a.revenue-b.revenue
   })
-  return drivers
+  return newarr
 }
 
 
